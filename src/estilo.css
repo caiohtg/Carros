@@ -1,6 +1,6 @@
 body {
     background-color: #424242;
-    padding: 2vh;
+    margin: 0;
 }
 
 .container {
@@ -29,29 +29,30 @@ body {
 
 .car:hover {
     transform: scale(1.05);
+    box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.829);
 }
 
 #audi{
     background-image: url('./imgs/pexels-asish-aji-7605801.jpg');
-    height: 95vh;
+    height: 100vh;
     width: 25%;
 }        
 
 #gtr {
     background-image: url('./imgs/pexels-mathieu-gervais-11941023.jpg');
     background-position: left top;
-    height: 95vh;
+    height: 100vh;
     width: 25%;
 }
 
 #corvette {
     background-image: url('./imgs/pexels-isaac-mitchell-18259547.jpg');
-    height: 95vh;
+    height: 100vh;
     width: 25%;
 }
 
 #mustang{
     background-image: url('./imgs/pexels-david-gari-9403690.jpg');
-    height: 95vh;
+    height: 100vh;
     width: 25%;
 }
