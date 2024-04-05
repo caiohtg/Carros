@@ -1,0 +1,57 @@
+body {
+    background-color: #424242;
+    padding: 2vh;
+}
+
+.container {
+    display: flex;
+}
+
+.car {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s ease-out;
+}
+
+.car a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.3s ease-out;
+}
+
+.car:hover {
+    transform: scale(1.05);
+}
+
+#audi{
+    background-image: url('./imgs/pexels-asish-aji-7605801.jpg');
+    height: 95vh;
+    width: 25%;
+}        
+
+#gtr {
+    background-image: url('./imgs/pexels-mathieu-gervais-11941023.jpg');
+    background-position: left top;
+    height: 95vh;
+    width: 25%;
+}
+
+#corvette {
+    background-image: url('./imgs/pexels-isaac-mitchell-18259547.jpg');
+    height: 95vh;
+    width: 25%;
+}
+
+#mustang{
+    background-image: url('./imgs/pexels-david-gari-9403690.jpg');
+    height: 95vh;
+    width: 25%;
+}
